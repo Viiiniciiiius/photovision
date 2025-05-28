@@ -28,7 +28,6 @@ Este projeto demonstra como usar **Expo Camera** e **Expo FileSystem** para capt
 
    ```bash
    git clone https://github.com/usuario/photovision.git
-   cd photovision
    ```
 2. Instale as dependências:
 
