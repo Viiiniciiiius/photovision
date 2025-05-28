@@ -27,7 +27,7 @@ Este projeto demonstra como usar **Expo Camera** e **Expo FileSystem** para capt
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/usuario/photovision.git
+   git clone https://github.com/viiiniciiiius/photovision.git
    ```
 2. Instale as dependências:
 
@@ -51,12 +51,13 @@ Este projeto demonstra como usar **Expo Camera** e **Expo FileSystem** para capt
 photovision/
 ├─ src/
 │  ├─ screens/
-│  │  └─ CameraScreen.tsx      # Tela principal da câmera
+│  │  └─ CamScreen.tsx         # Tela principal da câmera
 │  ├─ utils/
 │  │  └─ fileStorage.ts        # Lógica de gravação e organização de arquivos
-│  └─ types/
-│     └─ Photo.ts              # Interface Photo
-├─ App.tsx                     # Ponto de entrada do app
+│  ├─ types/
+│  │  └─ Photo.ts              # Interface Photo
+│  └─ App.tsx                  # Ponto de entrada do app
+├─ index.ts
 ├─ package.json
 └─ tsconfig.json
 ```
